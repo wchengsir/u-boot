@@ -1,0 +1,6 @@
+serial_s5p.c:239:1:printch	0	static
+serial_s5p.c:239:1:printascii	0	static
+serial_s5p.c:239:1:printhex2	0	static
+serial_s5p.c:239:1:printhex4	0	static
+serial_s5p.c:239:1:printhex8	0	static
+serial_s5p.c:239:1:debug_uart_init	0	static

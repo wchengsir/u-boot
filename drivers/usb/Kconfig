@@ -61,6 +61,8 @@ source "drivers/usb/phy/Kconfig"
 
 source "drivers/usb/ulpi/Kconfig"
 
+source "drivers/usb/eth/Kconfig"
+
 comment "USB peripherals"
 
 config USB_STORAGE

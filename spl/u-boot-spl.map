@@ -1,0 +1,754 @@
+由于文件 (符号) 而包含了归档成员
+
+arch/arm/lib/lib.a(lib1funcs.o)
+                              arch/arm/mach-exynos/built-in.o (__aeabi_uidiv)
+arch/arm/lib/lib.a(div0.o)    arch/arm/lib/lib.a(lib1funcs.o) (__div0)
+
+舍弃的输入节
+
+ .data          0x0000000000000000        0x0 arch/arm/cpu/armv7/start.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/armv7/start.o
+ .text          0x0000000000000000        0x0 arch/arm/mach-exynos/built-in.o
+ .text.reset_cpu
+                0x0000000000000000       0x40 arch/arm/mach-exynos/built-in.o
+ .text.exynos_get_pll_clk
+                0x0000000000000000       0xd8 arch/arm/mach-exynos/built-in.o
+ .text.get_clk_bit_info
+                0x0000000000000000       0x48 arch/arm/mach-exynos/built-in.o
+ .text.exynos542x_get_pll_clk
+                0x0000000000000000       0xec arch/arm/mach-exynos/built-in.o
+ .text.exynos5_get_pll_clk
+                0x0000000000000000      0x110 arch/arm/mach-exynos/built-in.o
+ .text.clock_calc_best_scalar.constprop.0
+                0x0000000000000000       0xbc arch/arm/mach-exynos/built-in.o
+ .text.clock_get_periph_rate
+                0x0000000000000000      0x378 arch/arm/mach-exynos/built-in.o
+ .text.exynos4_set_lcd_clk
+                0x0000000000000000       0x70 arch/arm/mach-exynos/built-in.o
+ .text.exynos5_set_lcd_clk
+                0x0000000000000000       0x6c arch/arm/mach-exynos/built-in.o
+ .text.exynos5420_set_lcd_clk
+                0x0000000000000000       0x60 arch/arm/mach-exynos/built-in.o
+ .text.exynos5800_set_lcd_clk
+                0x0000000000000000       0x58 arch/arm/mach-exynos/built-in.o
+ .text.exynos4_set_mipi_clk
+                0x0000000000000000       0x70 arch/arm/mach-exynos/built-in.o
+ .text.exynos5_set_epll_clk
+                0x0000000000000000      0x100 arch/arm/mach-exynos/built-in.o
+ .text.exynos5_set_i2s_clk_source
+                0x0000000000000000       0x9c arch/arm/mach-exynos/built-in.o
+ .text.exynos5_set_i2s_clk_prescaler
+                0x0000000000000000       0xac arch/arm/mach-exynos/built-in.o
+ .text.get_pll_clk
+                0x0000000000000000      0x10c arch/arm/mach-exynos/built-in.o
+ .text.get_arm_clk
+                0x0000000000000000       0x68 arch/arm/mach-exynos/built-in.o
+ .text.get_i2c_clk
+                0x0000000000000000       0x5c arch/arm/mach-exynos/built-in.o
+ .text.get_pwm_clk
+                0x0000000000000000       0xe4 arch/arm/mach-exynos/built-in.o
+ .text.get_uart_clk
+                0x0000000000000000       0xdc arch/arm/mach-exynos/built-in.o
+ .text.get_mmc_clk
+                0x0000000000000000      0x138 arch/arm/mach-exynos/built-in.o
+ .text.set_mmc_clk
+                0x0000000000000000      0x118 arch/arm/mach-exynos/built-in.o
+ .text.get_lcd_clk
+                0x0000000000000000      0x148 arch/arm/mach-exynos/built-in.o
+ .text.set_lcd_clk
+                0x0000000000000000       0x48 arch/arm/mach-exynos/built-in.o
+ .text.set_mipi_clk
+                0x0000000000000000       0x1c arch/arm/mach-exynos/built-in.o
+ .text.set_spi_clk
+                0x0000000000000000      0x234 arch/arm/mach-exynos/built-in.o
+ .text.set_i2s_clk_prescaler
+                0x0000000000000000       0x24 arch/arm/mach-exynos/built-in.o
+ .text.set_i2s_clk_source
+                0x0000000000000000       0x24 arch/arm/mach-exynos/built-in.o
+ .text.set_epll_clk
+                0x0000000000000000       0x24 arch/arm/mach-exynos/built-in.o
+ .text.set_mipi_phy_ctrl
+                0x0000000000000000       0x54 arch/arm/mach-exynos/built-in.o
+ .text.exynos5_set_usbhost_phy_ctrl
+                0x0000000000000000       0x48 arch/arm/mach-exynos/built-in.o
+ .text.exynos4412_set_usbhost_phy_ctrl
+                0x0000000000000000       0x80 arch/arm/mach-exynos/built-in.o
+ .text.set_usbhost_phy_ctrl
+                0x0000000000000000       0x30 arch/arm/mach-exynos/built-in.o
+ .text.set_usbdrd_phy_ctrl
+                0x0000000000000000       0x74 arch/arm/mach-exynos/built-in.o
+ .text.exynos_dp_phy_ctrl
+                0x0000000000000000       0x40 arch/arm/mach-exynos/built-in.o
+ .text.set_xclkout
+                0x0000000000000000       0x30 arch/arm/mach-exynos/built-in.o
+ .text.set_hw_thermal_trip
+                0x0000000000000000       0x2c arch/arm/mach-exynos/built-in.o
+ .text.set_usbhost_mode
+                0x0000000000000000       0x38 arch/arm/mach-exynos/built-in.o
+ .text.set_system_display_ctrl
+                0x0000000000000000       0x60 arch/arm/mach-exynos/built-in.o
+ .text.get_irom_func
+                0x0000000000000000       0x14 arch/arm/mach-exynos/built-in.o
+ .text.board_init_r
+                0x0000000000000000        0x4 arch/arm/mach-exynos/built-in.o
+ .rodata        0x0000000000000000       0x20 arch/arm/mach-exynos/built-in.o
+ .rodata.exynos542x_get_pll_clk.str1.1
+                0x0000000000000000       0x16 arch/arm/mach-exynos/built-in.o
+ .rodata.exynos5_epll_div
+                0x0000000000000000       0xa8 arch/arm/mach-exynos/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/mach-exynos/built-in.o
+ .data.exynos542x_bit_info
+                0x0000000000000000      0x26c arch/arm/mach-exynos/built-in.o
+ .data.exynos5_bit_info
+                0x0000000000000000      0x258 arch/arm/mach-exynos/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/mach-exynos/built-in.o
+ .text          0x0000000000000000      0x148 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_dcache_all
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.flush_dcache_all
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_dcache_range
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.flush_dcache_range
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.arm_init_before_mmu
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.mmu_page_table_flush
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.arm_init_domains
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.invalidate_icache_all
+                0x0000000000000000       0x18 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_enable
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_disable
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_flush_all
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_inval_all
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_flush_range
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.v7_outer_cache_inval_range
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.cpu_cache_initialization
+                0x0000000000000000        0x4 arch/arm/cpu/armv7/built-in.o
+ .text.cleanup_before_linux_select
+                0x0000000000000000       0x44 arch/arm/cpu/armv7/built-in.o
+ .text.cleanup_before_linux
+                0x0000000000000000        0x8 arch/arm/cpu/armv7/built-in.o
+ .text.v7_arch_cp15_set_l2aux_ctrl
+                0x0000000000000000        0x8 arch/arm/cpu/armv7/built-in.o
+ .text.v7_arch_cp15_set_acr
+                0x0000000000000000        0x8 arch/arm/cpu/armv7/built-in.o
+ .text.wait_on_value
+                0x0000000000000000       0x38 arch/arm/cpu/armv7/built-in.o
+ .text.get_device_type
+                0x0000000000000000       0x10 arch/arm/cpu/armv7/built-in.o
+ .text.print_cpuinfo
+                0x0000000000000000       0x6c arch/arm/cpu/armv7/built-in.o
+ .rodata.print_cpuinfo.str1.1
+                0x0000000000000000       0x31 arch/arm/cpu/armv7/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .text.setjmp   0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.longjmp  0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.arch_fixup_fdt
+                0x0000000000000000       0x60 arch/arm/lib/built-in.o
+ .text.arch_reserve_stacks
+                0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.interrupt_init
+                0x0000000000000000       0x1c arch/arm/lib/built-in.o
+ .text.enable_interrupts
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.disable_interrupts
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.bad_mode
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .text.show_regs
+                0x0000000000000000      0x1cc arch/arm/lib/built-in.o
+ .text.do_undefined_instruction
+                0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.do_software_interrupt
+                0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.do_prefetch_abort
+                0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.do_data_abort
+                0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.do_not_used
+                0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.do_fiq   0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.do_irq   0x0000000000000000       0x2c arch/arm/lib/built-in.o
+ .text.reset_misc
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.do_reset
+                0x0000000000000000       0x30 arch/arm/lib/built-in.o
+ .text.enable_caches
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.invalidate_dcache_range
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.flush_dcache_range
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.flush_cache
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.flush_dcache_all
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.check_cache_range
+                0x0000000000000000       0x20 arch/arm/lib/built-in.o
+ .text.arm_init_before_mmu
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.arm_init_domains
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.set_section_dcache
+                0x0000000000000000       0x14 arch/arm/lib/built-in.o
+ .text.mmu_page_table_flush
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.mmu_set_region_dcache_behaviour
+                0x0000000000000000       0x58 arch/arm/lib/built-in.o
+ .text.dram_bank_mmu_setup
+                0x0000000000000000       0x44 arch/arm/lib/built-in.o
+ .text.icache_enable
+                0x0000000000000000       0x14 arch/arm/lib/built-in.o
+ .text.icache_disable
+                0x0000000000000000       0x18 arch/arm/lib/built-in.o
+ .text.icache_status
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .text.dcache_enable
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.dcache_disable
+                0x0000000000000000        0x4 arch/arm/lib/built-in.o
+ .text.dcache_status
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .text.fdt_psci
+                0x0000000000000000        0x8 arch/arm/lib/built-in.o
+ .rodata        0x0000000000000000       0x80 arch/arm/lib/built-in.o
+ .rodata.bad_mode.str1.1
+                0x0000000000000000       0x13 arch/arm/lib/built-in.o
+ .rodata.do_data_abort.str1.1
+                0x0000000000000000        0xc arch/arm/lib/built-in.o
+ .rodata.do_fiq.str1.1
+                0x0000000000000000       0x18 arch/arm/lib/built-in.o
+ .rodata.do_irq.str1.1
+                0x0000000000000000       0x13 arch/arm/lib/built-in.o
+ .rodata.do_not_used.str1.1
+                0x0000000000000000        0xa arch/arm/lib/built-in.o
+ .rodata.do_prefetch_abort.str1.1
+                0x0000000000000000       0x10 arch/arm/lib/built-in.o
+ .rodata.do_software_interrupt.str1.1
+                0x0000000000000000       0x14 arch/arm/lib/built-in.o
+ .rodata.do_undefined_instruction.str1.1
+                0x0000000000000000       0x17 arch/arm/lib/built-in.o
+ .rodata.show_regs.str1.1
+                0x0000000000000000      0x140 arch/arm/lib/built-in.o
+ .rodata.str1.1
+                0x0000000000000000       0xeb arch/arm/lib/built-in.o
+ .rodata.do_reset.str1.1
+                0x0000000000000000        0xf arch/arm/lib/built-in.o
+ .rodata.enable_caches.str1.1
+                0x0000000000000000       0x1d arch/arm/lib/built-in.o
+ .data          0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__bss_end     0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__bss_start   0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_rel_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_rel_stop
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__efi_runtime_stop
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__end         0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__image_copy_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__image_copy_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__rel_dyn_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__rel_dyn_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_end  0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_stack_end
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_stack_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .__secure_start
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .bss           0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .text          0x0000000000000000        0x0 board/samsung/common/built-in.o
+ .text.g_dnl_bind_fixup
+                0x0000000000000000       0xa4 board/samsung/common/built-in.o
+ .rodata.g_dnl_bind_fixup.str1.1
+                0x0000000000000000       0x19 board/samsung/common/built-in.o
+ .data          0x0000000000000000        0x0 board/samsung/common/built-in.o
+ .bss           0x0000000000000000        0x0 board/samsung/common/built-in.o
+ .comment       0x0000000000000000       0x75 board/samsung/common/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 board/samsung/common/built-in.o
+ .ARM.attributes
+                0x0000000000000000       0x2d board/samsung/common/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x20 board/samsung/common/built-in.o
+ .debug_info    0x0000000000000000      0xe43 board/samsung/common/built-in.o
+ .debug_abbrev  0x0000000000000000      0x289 board/samsung/common/built-in.o
+ .debug_line    0x0000000000000000      0x1b7 board/samsung/common/built-in.o
+ .debug_frame   0x0000000000000000       0x2c board/samsung/common/built-in.o
+ .debug_str     0x0000000000000000      0xa6f board/samsung/common/built-in.o
+ .debug_loc     0x0000000000000000      0x209 board/samsung/common/built-in.o
+ .debug_ranges  0x0000000000000000       0x28 board/samsung/common/built-in.o
+ .text          0x0000000000000000        0x0 common/init/built-in.o
+ .text.show_boot_progress
+                0x0000000000000000        0x4 common/init/built-in.o
+ .data          0x0000000000000000        0x0 common/init/built-in.o
+ .bss           0x0000000000000000        0x0 common/init/built-in.o
+ .text          0x0000000000000000        0x0 drivers/built-in.o
+ .text.serial_stub_start
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.serial_stub_stop
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.serial_stub_putc
+                0x0000000000000000       0x10 drivers/built-in.o
+ .text.serial_stub_puts
+                0x0000000000000000       0x10 drivers/built-in.o
+ .text.serial_stub_getc
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.serial_stub_tstc
+                0x0000000000000000        0xc drivers/built-in.o
+ .text.get_current
+                0x0000000000000000       0x44 drivers/built-in.o
+ .text.serial_null
+                0x0000000000000000        0x4 drivers/built-in.o
+ .text.serial_register
+                0x0000000000000000       0x18 drivers/built-in.o
+ .text.serial_stdio_init
+                0x0000000000000000       0xa4 drivers/built-in.o
+ .text.serial_assign
+                0x0000000000000000       0x4c drivers/built-in.o
+ .text.serial_initialize
+                0x0000000000000000       0x38 drivers/built-in.o
+ .text.serial_reinit_all
+                0x0000000000000000       0x2c drivers/built-in.o
+ .text.serial_init
+                0x0000000000000000       0x20 drivers/built-in.o
+ .text.serial_setbrg
+                0x0000000000000000       0x14 drivers/built-in.o
+ .text.serial_getc
+                0x0000000000000000       0x14 drivers/built-in.o
+ .text.serial_tstc
+                0x0000000000000000       0x14 drivers/built-in.o
+ .text.serial_putc
+                0x0000000000000000       0x1c drivers/built-in.o
+ .text.serial_puts
+                0x0000000000000000       0x1c drivers/built-in.o
+ .text.default_serial_puts
+                0x0000000000000000       0x30 drivers/built-in.o
+ .text.printch  0x0000000000000000       0x4c drivers/built-in.o
+ .text.printascii
+                0x0000000000000000       0x58 drivers/built-in.o
+ .text.printhex2
+                0x0000000000000000       0x64 drivers/built-in.o
+ .text.printhex4
+                0x0000000000000000       0x48 drivers/built-in.o
+ .text.printhex8
+                0x0000000000000000       0x48 drivers/built-in.o
+ .text.s5p_gpio_get_pin
+                0x0000000000000000        0x8 drivers/built-in.o
+ .text.gpio_set_rate
+                0x0000000000000000       0x44 drivers/built-in.o
+ .rodata.get_current.str1.1
+                0x0000000000000000       0x15 drivers/built-in.o
+ .data          0x0000000000000000        0x0 drivers/built-in.o
+ .bss           0x0000000000000000        0x0 drivers/built-in.o
+ .bss.serial_current
+                0x0000000000000000        0x4 drivers/built-in.o
+ .bss.serial_devices
+                0x0000000000000000        0x4 drivers/built-in.o
+ .text          0x0000000000000000        0x0 fs/built-in.o
+ .text.fs_devread
+                0x0000000000000000      0x230 fs/built-in.o
+ .rodata.__func__.7500
+                0x0000000000000000        0xb fs/built-in.o
+ .rodata.fs_devread.str1.1
+                0x0000000000000000       0x98 fs/built-in.o
+ .data          0x0000000000000000        0x0 fs/built-in.o
+ .bss           0x0000000000000000        0x0 fs/built-in.o
+ .comment       0x0000000000000000       0x75 fs/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fs/built-in.o
+ .ARM.attributes
+                0x0000000000000000       0x2d fs/built-in.o
+ .debug_aranges
+                0x0000000000000000       0x20 fs/built-in.o
+ .debug_info    0x0000000000000000     0x1247 fs/built-in.o
+ .debug_abbrev  0x0000000000000000      0x368 fs/built-in.o
+ .debug_line    0x0000000000000000      0x23e fs/built-in.o
+ .debug_frame   0x0000000000000000       0x40 fs/built-in.o
+ .debug_str     0x0000000000000000      0xc18 fs/built-in.o
+ .debug_loc     0x0000000000000000      0x640 fs/built-in.o
+ .debug_ranges  0x0000000000000000       0xa8 fs/built-in.o
+ .text          0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .data          0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .bss           0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .text.raise    0x0000000000000000        0x8 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr0
+                0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_unwind_cpp_pr1
+                0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_memcpy
+                0x0000000000000000        0x4 arch/arm/lib/eabi_compat.o
+ .text.__aeabi_memset
+                0x0000000000000000       0x10 arch/arm/lib/eabi_compat.o
+ .debug_info    0x0000000000000000      0xb7c arch/arm/lib/eabi_compat.o
+ .debug_abbrev  0x0000000000000000      0x245 arch/arm/lib/eabi_compat.o
+ .debug_loc     0x0000000000000000       0xfd arch/arm/lib/eabi_compat.o
+ .debug_aranges
+                0x0000000000000000       0x38 arch/arm/lib/eabi_compat.o
+ .debug_ranges  0x0000000000000000       0x28 arch/arm/lib/eabi_compat.o
+ .debug_line    0x0000000000000000      0x1a1 arch/arm/lib/eabi_compat.o
+ .debug_str     0x0000000000000000      0x9d4 arch/arm/lib/eabi_compat.o
+ .comment       0x0000000000000000       0x75 arch/arm/lib/eabi_compat.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/lib/eabi_compat.o
+ .debug_frame   0x0000000000000000       0x60 arch/arm/lib/eabi_compat.o
+ .ARM.attributes
+                0x0000000000000000       0x2d arch/arm/lib/eabi_compat.o
+ .text          0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .data          0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .bss           0x0000000000000000        0x0 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__udivsi3
+                0x0000000000000000       0x9c arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__umodsi3
+                0x0000000000000000       0xa0 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__divsi3
+                0x0000000000000000       0xcc arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__modsi3
+                0x0000000000000000       0xb8 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.__aeabi_uidivmod
+                0x0000000000000000       0x30 arch/arm/lib/lib.a(lib1funcs.o)
+ .text.Ldiv0    0x0000000000000000       0x10 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_line    0x0000000000000000       0xf1 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_info    0x0000000000000000       0x5d arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_abbrev  0x0000000000000000       0x12 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_aranges
+                0x0000000000000000       0x48 arch/arm/lib/lib.a(lib1funcs.o)
+ .debug_ranges  0x0000000000000000       0x40 arch/arm/lib/lib.a(lib1funcs.o)
+ .ARM.attributes
+                0x0000000000000000       0x1d arch/arm/lib/lib.a(lib1funcs.o)
+ .text          0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
+ .data          0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
+ .bss           0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
+ .text.__div0   0x0000000000000000        0x4 arch/arm/lib/lib.a(div0.o)
+ .debug_info    0x0000000000000000       0x57 arch/arm/lib/lib.a(div0.o)
+ .debug_abbrev  0x0000000000000000       0x5e arch/arm/lib/lib.a(div0.o)
+ .debug_aranges
+                0x0000000000000000       0x20 arch/arm/lib/lib.a(div0.o)
+ .debug_ranges  0x0000000000000000       0x10 arch/arm/lib/lib.a(div0.o)
+ .debug_line    0x0000000000000000       0x42 arch/arm/lib/lib.a(div0.o)
+ .debug_str     0x0000000000000000      0x1de arch/arm/lib/lib.a(div0.o)
+ .comment       0x0000000000000000       0x75 arch/arm/lib/lib.a(div0.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/lib/lib.a(div0.o)
+ .debug_frame   0x0000000000000000       0x20 arch/arm/lib/lib.a(div0.o)
+ .ARM.attributes
+                0x0000000000000000       0x2d arch/arm/lib/lib.a(div0.o)
+
+内存配置
+
+名称           来源             长度             属性
+.sram            0x0000000002023400 0x0000000000003800
+*default*        0x0000000000000000 0xffffffffffffffff
+
+链结器命令稿和内存映射
+
+
+.text           0x0000000002023400     0x1d10
+                0x0000000002023400                __start = .
+ *(.vectors)
+ .vectors       0x0000000002023400       0x44 arch/arm/lib/built-in.o
+                0x0000000002023400                _start
+                0x0000000002023420                _undefined_instruction
+                0x0000000002023424                _software_interrupt
+                0x0000000002023428                _prefetch_abort
+                0x000000000202342c                _data_abort
+                0x0000000002023430                _not_used
+                0x0000000002023434                _irq
+                0x0000000002023438                _fiq
+ arch/arm/cpu/armv7/start.o(.text*)
+ .text          0x0000000002023444       0xa4 arch/arm/cpu/armv7/start.o
+                0x0000000002023444                reset
+                0x0000000002023448                save_boot_params_ret
+                0x000000000202347c                c_runtime_cpu_setup
+                0x000000000202348c                save_boot_params
+                0x0000000002023490                cpu_init_cp15
+ *(.text*)
+ .text.exynos4x12_uart_config
+                0x00000000020234e8       0x80 arch/arm/mach-exynos/built-in.o
+ .text.exynos4_i2c_config.isra.1
+                0x0000000002023568       0xfc arch/arm/mach-exynos/built-in.o
+ .text.exynos5_spi_config
+                0x0000000002023664       0xc8 arch/arm/mach-exynos/built-in.o
+                0x0000000002023664                exynos5_spi_config
+ .text.exynos5420_spi_config
+                0x000000000202372c       0xb0 arch/arm/mach-exynos/built-in.o
+                0x000000000202372c                exynos5420_spi_config
+ .text.exynos_pinmux_config
+                0x00000000020237dc      0x8cc arch/arm/mach-exynos/built-in.o
+                0x00000000020237dc                exynos_pinmux_config
+ .text.set_ps_hold_ctrl
+                0x00000000020240a8       0x2c arch/arm/mach-exynos/built-in.o
+                0x00000000020240a8                set_ps_hold_ctrl
+ .text.get_reset_status
+                0x00000000020240d4       0x38 arch/arm/mach-exynos/built-in.o
+                0x00000000020240d4                get_reset_status
+ .text.power_exit_wakeup
+                0x000000000202410c       0x38 arch/arm/mach-exynos/built-in.o
+                0x000000000202410c                power_exit_wakeup
+ .text.get_boot_mode
+                0x0000000002024144       0x40 arch/arm/mach-exynos/built-in.o
+                0x0000000002024144                get_boot_mode
+ .text.dmc_init
+                0x0000000002024184      0x1f0 arch/arm/mach-exynos/built-in.o
+ .text.mem_ctrl_init
+                0x0000000002024374       0xd0 arch/arm/mach-exynos/built-in.o
+                0x0000000002024374                mem_ctrl_init
+ .text.system_clock_init
+                0x0000000002024444      0x2f0 arch/arm/mach-exynos/built-in.o
+                0x0000000002024444                system_clock_init
+ .text.copy_uboot_to_ram
+                0x0000000002024734       0x40 arch/arm/mach-exynos/built-in.o
+                0x0000000002024734                copy_uboot_to_ram
+ .text.memzero  0x0000000002024774       0x1c arch/arm/mach-exynos/built-in.o
+                0x0000000002024774                memzero
+ .text.board_init_f
+                0x0000000002024790       0x58 arch/arm/mach-exynos/built-in.o
+                0x0000000002024790                board_init_f
+ .text.tzpc_init
+                0x00000000020247e8       0xcc arch/arm/mach-exynos/built-in.o
+                0x00000000020247e8                tzpc_init
+ .text.do_lowlevel_init
+                0x00000000020248b4       0x80 arch/arm/mach-exynos/built-in.o
+                0x00000000020248b4                do_lowlevel_init
+ .text.sdelay   0x0000000002024934        0xc arch/arm/cpu/armv7/built-in.o
+                0x0000000002024934                sdelay
+ .text.arch_cpu_init
+                0x0000000002024940       0xac arch/arm/cpu/armv7/built-in.o
+                0x0000000002024940                arch_cpu_init
+ *fill*         0x00000000020249ec       0x14 
+ .text          0x0000000002024a00      0x4c8 arch/arm/lib/built-in.o
+                0x0000000002024a00                _main
+                0x0000000002024a40                memset
+                0x0000000002024b1c                memcpy
+ .text.board_init_f_alloc_reserve
+                0x0000000002024ec8       0x10 common/init/built-in.o
+                0x0000000002024ec8                board_init_f_alloc_reserve
+ .text.board_init_f_init_reserve
+                0x0000000002024ed8       0x20 common/init/built-in.o
+                0x0000000002024ed8                board_init_f_init_reserve
+ .text.debug_uart_init
+                0x0000000002024ef8       0x4c drivers/built-in.o
+                0x0000000002024ef8                debug_uart_init
+ .text.s5p_gpio_get_bank
+                0x0000000002024f44       0xcc drivers/built-in.o
+ .text.gpio_set_value
+                0x0000000002025010       0x40 drivers/built-in.o
+                0x0000000002025010                gpio_set_value
+ .text.gpio_set_pull
+                0x0000000002025050       0x48 drivers/built-in.o
+                0x0000000002025050                gpio_set_pull
+ .text.gpio_set_drv
+                0x0000000002025098       0x40 drivers/built-in.o
+                0x0000000002025098                gpio_set_drv
+ .text.gpio_cfg_pin
+                0x00000000020250d8       0x38 drivers/built-in.o
+                0x00000000020250d8                gpio_cfg_pin
+
+.glue_7         0x0000000002025110        0x0
+ .glue_7        0x0000000002025110        0x0 linker stubs
+
+.glue_7t        0x0000000002025110        0x0
+ .glue_7t       0x0000000002025110        0x0 linker stubs
+
+.vfp11_veneer   0x0000000002025110        0x0
+ .vfp11_veneer  0x0000000002025110        0x0 linker stubs
+
+.v4_bx          0x0000000002025110        0x0
+ .v4_bx         0x0000000002025110        0x0 linker stubs
+
+.iplt           0x0000000002025110        0x0
+ .iplt          0x0000000002025110        0x0 arch/arm/cpu/armv7/start.o
+
+.rel.dyn        0x0000000002025110        0x0
+ .rel.iplt      0x0000000002025110        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000002025110                . = ALIGN (0x4)
+
+.rodata
+ *(SORT(.rodata*))
+                0x0000000002025110                . = ALIGN (0x4)
+
+.data           0x0000000002025110      0x138
+ *(SORT(.data*))
+ .data.mem      0x0000000002025110       0x4c arch/arm/mach-exynos/built-in.o
+                0x0000000002025110                mem
+ .data.irom_ptr_table
+                0x000000000202515c       0x14 arch/arm/mach-exynos/built-in.o
+                0x000000000202515c                irom_ptr_table
+ .data.s5p_cpu_id
+                0x0000000002025170        0x4 arch/arm/cpu/armv7/built-in.o
+                0x0000000002025170                s5p_cpu_id
+ .data.s5p_cpu_rev
+                0x0000000002025174        0x4 arch/arm/cpu/armv7/built-in.o
+                0x0000000002025174                s5p_cpu_rev
+ .data.exynos4_gpio_data
+                0x0000000002025178       0x20 drivers/built-in.o
+ .data.exynos4x12_gpio_data
+                0x0000000002025198       0x40 drivers/built-in.o
+ .data.exynos5420_gpio_data
+                0x00000000020251d8       0x30 drivers/built-in.o
+ .data.exynos5_gpio_data
+                0x0000000002025208       0x40 drivers/built-in.o
+
+.igot.plt       0x0000000002025248        0x0
+ .igot.plt      0x0000000002025248        0x0 arch/arm/cpu/armv7/start.o
+                0x0000000002025248                . = ALIGN (0x4)
+
+.u_boot_list
+ *(SORT(.u_boot_list*))
+                0x0000000002025248                . = ALIGN (0x4)
+
+.machine_param
+ *(.machine_param)
+                0x0000000002025248                . = ALIGN (0x4)
+                0x0000000002025248                __image_copy_end = .
+
+.end
+ *(.__end)
+
+.bss            0x0000000002025248        0x0
+                0x0000000002025248                . = ALIGN (0x4)
+                0x0000000002025248                __bss_start = .
+ *(.bss*)
+                0x0000000002025248                . = ALIGN (0x4)
+                0x0000000002025248                __bss_end = .
+段 .text 的地址设置为 0x2023400
+LOAD arch/arm/cpu/armv7/start.o
+START GROUP
+LOAD arch/arm/mach-exynos/built-in.o
+LOAD arch/arm/cpu/armv7/built-in.o
+LOAD arch/arm/cpu/built-in.o
+LOAD arch/arm/lib/built-in.o
+LOAD board/samsung/tiny4412/built-in.o
+LOAD board/samsung/common/built-in.o
+LOAD common/init/built-in.o
+LOAD drivers/built-in.o
+LOAD dts/built-in.o
+LOAD fs/built-in.o
+END GROUP
+LOAD arch/arm/lib/eabi_compat.o
+LOAD arch/arm/lib/lib.a
+OUTPUT(u-boot-spl elf32-littlearm)
+
+.ARM.attributes
+                0x0000000000000000       0x29
+ .ARM.attributes
+                0x0000000000000000       0x1d arch/arm/cpu/armv7/start.o
+ .ARM.attributes
+                0x000000000000001d       0x2d arch/arm/mach-exynos/built-in.o
+ .ARM.attributes
+                0x000000000000004a       0x2b arch/arm/cpu/armv7/built-in.o
+ .ARM.attributes
+                0x0000000000000075       0x29 arch/arm/lib/built-in.o
+ .ARM.attributes
+                0x000000000000009e       0x2d common/init/built-in.o
+ .ARM.attributes
+                0x00000000000000cb       0x2d drivers/built-in.o
+
+.comment        0x0000000000000000       0x74
+ .comment       0x0000000000000000       0x74 arch/arm/mach-exynos/built-in.o
+                                        0x492 (松开之前的大小)
+ .comment       0x0000000000000074      0x249 arch/arm/cpu/armv7/built-in.o
+ .comment       0x0000000000000074      0x3a8 arch/arm/lib/built-in.o
+ .comment       0x0000000000000074       0x75 common/init/built-in.o
+ .comment       0x0000000000000074      0x15f drivers/built-in.o
+
+.note.GNU-stack
+                0x0000000000000000        0x0
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/mach-exynos/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/cpu/armv7/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 arch/arm/lib/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 common/init/built-in.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 drivers/built-in.o
+
+.debug_line     0x0000000000000000     0x4301
+ .debug_line    0x0000000000000000       0x86 arch/arm/cpu/armv7/start.o
+ .debug_line    0x0000000000000086     0x1c97 arch/arm/mach-exynos/built-in.o
+ .debug_line    0x0000000000001d1d      0x92e arch/arm/cpu/armv7/built-in.o
+ .debug_line    0x000000000000264b     0x1121 arch/arm/lib/built-in.o
+ .debug_line    0x000000000000376c      0x1d9 common/init/built-in.o
+ .debug_line    0x0000000000003945      0x9bc drivers/built-in.o
+
+.debug_info     0x0000000000000000    0x2dd58
+ .debug_info    0x0000000000000000       0x63 arch/arm/cpu/armv7/start.o
+ .debug_info    0x0000000000000063    0x1ad88 arch/arm/mach-exynos/built-in.o
+ .debug_info    0x000000000001adeb     0x3e40 arch/arm/cpu/armv7/built-in.o
+ .debug_info    0x000000000001ec2b     0x6ef7 arch/arm/lib/built-in.o
+ .debug_info    0x0000000000025b22      0xf90 common/init/built-in.o
+ .debug_info    0x0000000000026ab2     0x72a6 drivers/built-in.o
+
+.debug_abbrev   0x0000000000000000     0x4c7f
+ .debug_abbrev  0x0000000000000000       0x14 arch/arm/cpu/armv7/start.o
+ .debug_abbrev  0x0000000000000014     0x1fc5 arch/arm/mach-exynos/built-in.o
+ .debug_abbrev  0x0000000000001fd9      0xb55 arch/arm/cpu/armv7/built-in.o
+ .debug_abbrev  0x0000000000002b2e     0x12bb arch/arm/lib/built-in.o
+ .debug_abbrev  0x0000000000003de9      0x2a4 common/init/built-in.o
+ .debug_abbrev  0x000000000000408d      0xbf2 drivers/built-in.o
+
+.debug_aranges  0x0000000000000000      0x7d8
+ .debug_aranges
+                0x0000000000000000       0x20 arch/arm/cpu/armv7/start.o
+ .debug_aranges
+                0x0000000000000020      0x2c0 arch/arm/mach-exynos/built-in.o
+ .debug_aranges
+                0x00000000000002e0      0x110 arch/arm/cpu/armv7/built-in.o
+ .debug_aranges
+                0x00000000000003f0      0x268 arch/arm/lib/built-in.o
+ .debug_aranges
+                0x0000000000000658       0x30 common/init/built-in.o
+ .debug_aranges
+                0x0000000000000688      0x150 drivers/built-in.o
+
+.debug_frame    0x0000000000000000      0xe74
+ .debug_frame   0x0000000000000000      0x5e4 arch/arm/mach-exynos/built-in.o
+ .debug_frame   0x00000000000005e4      0x1e8 arch/arm/cpu/armv7/built-in.o
+ .debug_frame   0x00000000000007cc      0x340 arch/arm/lib/built-in.o
+ .debug_frame   0x0000000000000b0c       0x48 common/init/built-in.o
+ .debug_frame   0x0000000000000b54      0x320 drivers/built-in.o
+
+.debug_str      0x0000000000000000    0x1008a
+ .debug_str     0x0000000000000000     0xf02f arch/arm/mach-exynos/built-in.o
+                                      0x161dd (松开之前的大小)
+ .debug_str     0x000000000000f02f      0x371 arch/arm/cpu/armv7/built-in.o
+                                       0x38fb (松开之前的大小)
+ .debug_str     0x000000000000f3a0      0x56a arch/arm/lib/built-in.o
+                                       0x6330 (松开之前的大小)
+ .debug_str     0x000000000000f90a       0x6f common/init/built-in.o
+                                        0xfd9 (松开之前的大小)
+ .debug_str     0x000000000000f979      0x711 drivers/built-in.o
+                                       0x99c4 (松开之前的大小)
+
+.debug_loc      0x0000000000000000     0x5db7
+ .debug_loc     0x0000000000000000     0x4532 arch/arm/mach-exynos/built-in.o
+ .debug_loc     0x0000000000004532      0x164 arch/arm/cpu/armv7/built-in.o
+ .debug_loc     0x0000000000004696      0x7de arch/arm/lib/built-in.o
+ .debug_loc     0x0000000000004e74       0xf4 common/init/built-in.o
+ .debug_loc     0x0000000000004f68      0xe4f drivers/built-in.o
+
+.debug_ranges   0x0000000000000000      0xf68
+ .debug_ranges  0x0000000000000000      0x968 arch/arm/mach-exynos/built-in.o
+ .debug_ranges  0x0000000000000968       0xb8 arch/arm/cpu/armv7/built-in.o
+ .debug_ranges  0x0000000000000a20      0x250 arch/arm/lib/built-in.o
+ .debug_ranges  0x0000000000000c70       0x20 common/init/built-in.o
+ .debug_ranges  0x0000000000000c90      0x2d8 drivers/built-in.o

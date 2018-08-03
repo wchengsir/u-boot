@@ -1,0 +1,5 @@
+pinmux.c:762:13:exynos4x12_uart_config	16	static
+pinmux.c:564:13:exynos4_i2c_config.isra.1	8	static
+pinmux.c:381:6:exynos5_spi_config	16	static
+pinmux.c:415:6:exynos5420_spi_config	16	static
+pinmux.c:863:5:exynos_pinmux_config	32	static

@@ -1,0 +1,8 @@
+s5p_sdhci.c:29:13:s5p_sdhci_set_control_reg	0	static
+s5p_sdhci.c:75:13:s5p_set_clock	0	static
+s5p_sdhci.c:157:12:sdhci_get_config	24	static
+s5p_sdhci.c:269:12:s5p_sdhci_bind	8	static
+s5p_sdhci.c:124:12:do_sdhci_init	24	static
+s5p_sdhci.c:242:12:s5p_sdhci_probe	24	static
+s5p_sdhci.c:107:5:s5p_sdhci_init	16	static
+s5p_sdhci.c:228:5:exynos_mmc_init	64	static

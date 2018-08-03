@@ -1,0 +1,2 @@
+s5p_wdt.c:13:6:wdt_stop	0	static
+s5p_wdt.c:25:6:wdt_start	8	static

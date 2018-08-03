@@ -1,0 +1,7 @@
+sdhci.c:22:13:sdhci_reset.isra.3	16	static
+sdhci.c:137:12:sdhci_send_command	48	static
+sdhci.c:329:12:sdhci_set_clock.isra.5	32	static
+sdhci.c:454:12:sdhci_set_ios	16	static
+sdhci.c:538:5:sdhci_probe	16	static
+sdhci.c:560:5:sdhci_setup_cfg	16	static
+sdhci.c:679:5:sdhci_bind	0	static

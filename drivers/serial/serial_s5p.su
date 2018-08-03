@@ -1,0 +1,12 @@
+serial_s5p.c:141:12:s5p_serial_getc	0	static
+serial_s5p.c:153:12:s5p_serial_putc	0	static
+serial_s5p.c:167:12:s5p_serial_pending	0	static
+serial_s5p.c:89:5:s5p_serial_setbrg	16	static
+serial_s5p.c:179:12:s5p_serial_ofdata_to_platdata	16	static
+serial_s5p.c:112:12:s5p_serial_probe	0	static
+serial_s5p.c:239:1:printch	0	static
+serial_s5p.c:239:1:printascii	0	static
+serial_s5p.c:239:1:printhex2	0	static
+serial_s5p.c:239:1:printhex4	0	static
+serial_s5p.c:239:1:printhex8	0	static
+serial_s5p.c:239:1:debug_uart_init	0	static

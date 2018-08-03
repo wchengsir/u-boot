@@ -1,0 +1,7 @@
+s5p_gpio.c:46:30:s5p_gpio_get_bank	4	static
+s5p_gpio.c:96:5:gpio_set_value	16	static
+s5p_gpio.c:181:5:s5p_gpio_get_pin	0	static
+s5p_gpio.c:238:6:gpio_set_pull	16	static
+s5p_gpio.c:244:6:gpio_set_drv	16	static
+s5p_gpio.c:250:6:gpio_cfg_pin	16	static
+s5p_gpio.c:256:6:gpio_set_rate	16	static

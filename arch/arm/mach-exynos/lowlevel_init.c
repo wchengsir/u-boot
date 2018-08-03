@@ -168,6 +168,9 @@ static void secondary_cores_configure(void)
 extern void relocate_wait_code(void);
 #endif
 
+extern void mem_ctrl_init(int reset);
+extern void system_clock_init(void);
+
 int do_lowlevel_init(void)
 {
 	uint32_t reset_status;
@@ -218,7 +221,7 @@ int do_lowlevel_init(void)
 #ifdef CONFIG_DEBUG_UART
 #if (defined(CONFIG_SPL_BUILD) && defined(CONFIG_SPL_SERIAL_SUPPORT)) || \
     !defined(CONFIG_SPL_BUILD)
-		exynos_pinmux_config(PERIPH_ID_UART3, PINMUX_FLAG_NONE);
+		exynos_pinmux_config(PERIPH_ID_UART0, PINMUX_FLAG_NONE);
 		debug_uart_init();
 #endif
 #endif
