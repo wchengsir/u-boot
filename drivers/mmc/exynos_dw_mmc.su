@@ -1,8 +1,0 @@
-exynos_dw_mmc.c:47:13:exynos_dwmci_clksel	0	static
-exynos_dw_mmc.c:76:13:exynos_dwmci_board_init	0	static
-exynos_dw_mmc.c:54:14:exynos_dwmci_get_clk	16	static
-exynos_dw_mmc.c:148:12:exynos_dwmci_get_config	48	static
-exynos_dw_mmc.c:134:12:do_dwmci_init	16	static
-exynos_dw_mmc.c:261:12:exynos_dwmmc_probe	24	static
-exynos_dw_mmc.c:285:12:exynos_dwmmc_bind	8	static
-exynos_dw_mmc.c:238:5:exynos_dwmmc_init	64	static

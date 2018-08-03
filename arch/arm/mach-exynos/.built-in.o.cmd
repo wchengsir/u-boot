@@ -1,1 +1,0 @@
-cmd_arch/arm/mach-exynos/built-in.o :=  arm-linux-gnueabi-ld.bfd     -r -o arch/arm/mach-exynos/built-in.o arch/arm/mach-exynos/soc.o arch/arm/mach-exynos/clock.o arch/arm/mach-exynos/pinmux.o arch/arm/mach-exynos/power.o arch/arm/mach-exynos/system.o 

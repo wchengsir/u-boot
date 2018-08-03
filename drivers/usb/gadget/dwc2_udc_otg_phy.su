@@ -1,2 +1,0 @@
-dwc2_udc_otg_phy.c:40:6:otg_phy_init	16	static
-dwc2_udc_otg_phy.c:78:6:otg_phy_off	16	static
